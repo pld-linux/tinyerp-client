@@ -12,7 +12,7 @@ URL:		http://tinyerp.org/
 BuildRequires:	python
 BuildRequires:	python-devel
 BuildRequires:  rpmbuild(macros) >= 1.219
-Requires:	python
+Requires:	python-pygtk-glade
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
