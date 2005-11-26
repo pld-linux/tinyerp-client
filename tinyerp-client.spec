@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc doc/{CREDITS,INSTALL,README*}
 %attr(755,root,root) %{_bindir}/*
-%{py_sitescriptdir}/terp-client
+%{py_sitescriptdir}/tinyerp-client
 %{_pixmapsdir}/*
-%{_datadir}/terp-client
+%{_datadir}/tinyerp-client
 %{_mandir}/man?/*
