@@ -1,11 +1,13 @@
---- tinyerp-client-3.1.1/setup.py~	2005-11-26 21:24:42.070498000 +0100
-+++ tinyerp-client-3.1.1/setup.py	2005-11-26 21:25:14.256509500 +0100
-@@ -86,7 +86,7 @@
+--- tinyerp-client-3.1.1/setup.py~	2005-09-18 16:19:18.000000000 +0200
++++ tinyerp-client-3.1.1/setup.py	2005-11-26 21:33:08.306135750 +0100
+@@ -86,8 +86,8 @@
  # create startup script
  start_script = \
  "#!/bin/sh\n\
 -cd %s/lib/python%s/site-packages/tinyerp-client\n\
+-exec %s ./tinyerp-client.py $@" % (sys.prefix, py_short_version, sys.executable)
 +cd %s/share/python%s/site-packages/tinyerp-client\n\
- exec %s ./tinyerp-client.py $@" % (sys.prefix, py_short_version, sys.executable)
++exec %s ./tinyerp-client.pyc $@" % (sys.prefix, py_short_version, sys.executable)
  # write script
  f = open('tinyerp-client', 'w')
+ f.write(start_script)
