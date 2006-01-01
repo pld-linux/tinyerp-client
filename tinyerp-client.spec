@@ -1,12 +1,13 @@
+# NOTE: NOT USABLE!
 Summary:	Tiny ERP - free ERP and CRM software (client)
 Summary(pl):	Tiny ERP - darmowe oprogramowanie ERP i CRM (klient)
 Name:		tinyerp-client
-Version:	3.1.1
-Release:	0.2
+Version:	3.2.0
+Release:	0.1
 License:	GPL v2
 Group:		Applications
-Source0:	http://tinyerp.org/download/sources/%{name}-%{version}.tar.gz
-# Source0-md5:	c2c36a43704b470190e771b478f3f771
+Source0:	http://tinyerp.org/download/sources/%{name}-%{version}-rc1.tar.gz
+# Source0-md5:	cff58fda6aa449d5d19738f67dbf63d6
 Patch0:		%{name}-setup_py.patch
 Patch1:		%{name}-start.patch
 URL:		http://tinyerp.org/
