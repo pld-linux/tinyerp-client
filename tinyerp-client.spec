@@ -1,6 +1,6 @@
 # NOTE: NOT USABLE!
 Summary:	Tiny ERP - free ERP and CRM software (client)
-Summary(pl.UTF-8):   Tiny ERP - darmowe oprogramowanie ERP i CRM (klient)
+Summary(pl.UTF-8):	Tiny ERP - darmowe oprogramowanie ERP i CRM (klient)
 Name:		tinyerp-client
 Version:	3.2.1
 Release:	0.1
